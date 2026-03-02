@@ -1,15 +1,15 @@
 {
   "name": "cls-telegraph-viewer",
-  "displayName": "财联社电报查看器",
-  "description": "查看财联社电报内容",
-  "version": "0.0.6",
-  "publisher": "your-publisher-name",
+  "displayName": "实时电报",
+  "description": "实时获取财联社电报等(后续补充更多来源)",
+  "version": "1.0.0",
+  "publisher": "KayleMoon",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/your-repo.git"
+    "url": "https://github.com/caprimoon/cls-vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/your-repo/issues"
+    "url": "https://github.com/caprimoon/cls-vscode/issues"
   },
   "license": "MIT",
   "engines": {
@@ -40,7 +40,7 @@
       "activitybar": [
         {
           "id": "cls-telegraph-container",
-          "title": "财联社电报",
+          "title": "实时电报",
           "icon": "resources/telegraph.svg"
         }
       ]
@@ -100,7 +100,7 @@
       ]
     },
     "configuration": {
-      "title": "财联社电报查看器",
+      "title": "实时电报",
       "properties": {
         "clsTelegraph.autoRefreshInterval": {
           "type": "number",
