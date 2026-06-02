@@ -2,7 +2,7 @@
   "name": "cls-telegraph-viewer",
   "displayName": "实时电报",
   "description": "实时获取财联社电报等(后续补充更多来源)",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "KayleMoon",
   "repository": {
     "type": "git",
