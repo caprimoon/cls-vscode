@@ -123,6 +123,18 @@
           "type": "number",
           "default": 50,
           "description": "最大保存电报数量"
+        },
+        "clsTelegraph.sources": {
+          "type": "array",
+          "default": [
+            {
+              "name": "财联社",
+              "url": "https://www.cls.cn/telegraph",
+              "selector": ".telegraph-content-box",
+              "enabled": true
+            }
+          ],
+          "description": "配置消息来源列表"
         }
       }
     }
